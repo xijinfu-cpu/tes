@@ -3,10 +3,7 @@ import React from 'react';
 const GalleryItem = ({ src }) => (
   <img
     src={src}
-    className="rounded-md hover:scale-105 w-full object-cover cursor-pointer"
-    style={{
-      minHeight: '200px',
-    }}
+    className="rounded-md hover:scale-105 w-full h-48 object-cover cursor-pointer"
   />
 );
 
