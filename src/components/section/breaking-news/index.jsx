@@ -1,13 +1,9 @@
 import React from 'react';
-import Countdown from '../Countdown'; // sesuaikan path
 
 export default function BreakingNews() {
   const base = import.meta.env.BASE_URL || '/';
   return (
     <div>
-      {/* Tambahkan countdown di atas judul */}
-      <Countdown targetDate="2025-08-17T00:00:00" />
-
       <h2 className="font-bold mb-4">Breaking News</h2>
       <img className="w-full rounded-md" height={300} src={`${base}images/news.jpg`} />
       <div className="text-[#AFADA9] text-sm leading-[1.15rem] mt-2">

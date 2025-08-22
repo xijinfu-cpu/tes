@@ -7,6 +7,7 @@ import OurGallery from '../our-gallery';
 import WishSection from '../wish';
 import Footer from '../footer';
 import KadoRekening from '../kadoRekening';
+import Countdown from '../Countdown';
 
 export default function DetailInfo() {
   const base = import.meta.env.BASE_URL || '/';
@@ -71,6 +72,17 @@ export default function DetailInfo() {
       <Bridegroom />
       <LoveStory />
       <OurGallery />
+      <Countdown
+        targetDate="2025-08-17T00:00:00"
+        title="Save the Date"
+        showDatePill={false}
+        akadTime="10:00 WIB"
+        resepsiTime="12:00 - 15:00 WIB"
+        calendarStart="2025-08-17T10:00:00+07:00"
+        calendarEnd="2025-08-17T15:00:00+07:00"
+        calendarTitle="Akad & Resepsi"
+        calendarDetails="Mohon doa restu untuk hari bahagia kami."
+      />
       <WishSection />
       <KadoRekening/>
       <Footer />

@@ -35,11 +35,11 @@ const KadoRekening = () => {
       Kami dengan tulus menerima hadiah dari Anda sebagai tanda cinta dan doa. Kehadiran Anda sudah merupakan berkah bagi kami, dan setiap hadiah yang diberikan akan selalu kami hargai. Bagi yang ingin memberikan hadiah melalui transfer, berikut adalah nomor rekening kami:
       </p>
 
-      <div className="flex flex-col items-center gap-5 mt-9">
+      <div className="flex flex-col items-stretch gap-5 mt-9 w-full">
         {rekeningList.map((rekening) => (
           <div
             key={rekening.id}
-            className="flex flex-col items-center border border-gray-300 rounded-lg p-3 w-80 text-center shadow-md bg-gray-100"
+            className="flex flex-col items-center border border-gray-200 rounded-lg p-4 w-full text-center shadow-md bg-white"
           >
             <img 
               src={rekening.logo} 

@@ -13,6 +13,9 @@ export default function WishSection() {
   return (
     <div>
       {/* Google Maps GPS */}
+      <h2 className="text-lg leading-2 text-white font-bold mb-2">
+        Our Location
+      </h2>
       <div className="mb-2 rounded-lg overflow-hidden">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.65456043869!2d106.82577493014824!3d-6.1769763347988995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9bcc8!2sMonumen%20Nasional!5e0!3m2!1sid!2sid!4v1754703547733!5m2!1sid!2sid"
@@ -68,7 +71,7 @@ export default function WishSection() {
             rows={4}
           ></textarea>
         </div>
-        <button type="submit" className="w-full py-2 bg-white text-black font-bold rounded-lg">Send</button>
+        <button type="submit" className="w-full py-2 bg-red-600 text-white font-bold rounded-lg">Send</button>
       </form>
 
     </div>
